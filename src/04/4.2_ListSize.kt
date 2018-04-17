@@ -1,5 +1,8 @@
 package `04`
 
+/**
+ * Recursive function to count list size.
+ */
 fun size(array: IntArray): Int =
     if (array.isEmpty()) {
         0
